@@ -1,0 +1,11 @@
+print("digite sua nota")
+notaf = float(input("digite sua nota fianl: "))
+
+if (notaf >= 5 and notaf <= 6.9):
+    print("recuperação")
+
+elif (notaf >= 7):
+    print("aprovado")
+
+else:
+    print("reprovado")
